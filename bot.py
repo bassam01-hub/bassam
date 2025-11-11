@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 # الحصول على التوكن من متغيرات البيئة
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8280706942:AAHExfFb1bRBKCmSygV3RYpcoZJ4jSiR-8U')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '----')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
